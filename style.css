@@ -18,8 +18,9 @@ a:hover{text-decoration:underline;}
 */
 
 }
-/* .container:after{clear:both;} */
+.container:after{content:''; display:block; clear:both;}
 .clearFix{clear:both;}
+.inner{float:left;}
 
 .left-col{float:left; width:60%;}
 .right-col{float:right; width:40%;}
